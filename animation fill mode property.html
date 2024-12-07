@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container {
+            background-color: aqua;
+            width: 30vw;
+            height: 80vh;
+        }
+
+        .box {
+            
+            width: 135px;
+            height: 145px;
+            background-color: blue;
+            animation-name: AjayKaAnimation;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-fill-mode: forwards;
+           
+
+        }
+
+        @keyframes AjayKaAnimation {
+            form{
+
+            }
+            to{
+                transform: translateX(1000px);
+            }
+        
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            Box1
+        </div>
+    </div>
+</body>
+
+</html>
